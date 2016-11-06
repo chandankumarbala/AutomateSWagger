@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+'use strict';
+
+var program = require('commander');
+var version = require('../lib/util/cli').version();
+var executeApi = require('../lib/util/postOutPutReader.js');
+program
+  .version(version);
+console.log(executeApi.readDataFromJsonFile('C:\\Users\\vandana\\postmanFiles\\chandan.postman_collection.json'));

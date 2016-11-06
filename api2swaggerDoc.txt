@@ -1,0 +1,56 @@
+/c/Users/vandana/AppData/Roaming/npm/node_modules/api2swagger/bin
+
+json-server --watch /c/Users/vandana/serviceData/demo1.json
+api2swagger -e "https://www.googleapis.com/books/v1/volumes?q=quilting" -o /Users/Anil/Desktop/googleBooks.json -X GET
+
+
+
+https://community.apigee.com/articles/15397/api2swagger-open-api-swagger-20-spec-generator-fro.html
+https://jsonplaceholder.typicode.com/
+https://github.com/typicode/json-server
+
+vandana@vandana-PC MINGW32 ~/AppData/Roaming/npm/node_modules/api2swagger/bin
+$ ./api2swagger -e "https://www.googleapis.com/books/v1/volumes?q=quilting" -o /f/googleBooks.json -X GET
+? Title of Swagger Spec ? (API Program Title.)
+? Title of Swagger Spec ? API Program Title.
+? Description of Swagger Spec ? (API Program description)
+? Description of Swagger Spec ? API Program description
+? Terms of Service URL ? (http://example.com/about/terms)
+? Terms of Service URL ? http://example.com/about/terms
+? Version of your API Program ? (0.0.1)
+? Version of your API Program ? 0.0.1
+? Contact Name? (API Docs)
+? Contact Name? API Docs
+? Contact URL ? (http://example.com/contact)
+? Contact URL ? http://example.com/contact
+? Contact Email ? (apidocs@example.com)
+? Contact Email ? apidocs@example.com
+? License Name ? (Apache 2.0)
+? License Name ? Apache 2.0
+? License URL ? (http://example.com)
+? License URL ? http://example.com
+? Does your API supports http ? (Y/n)
+? Does your API supports http ? Yes
+? Pick Base Path from your API ? (Use arrow keys)
+? Pick Base Path from your API ? /
+? A verbose explanation of the operation behavior.  ? (API Method Description)
+? A verbose explanation of the operation behavior.  ? API Method Description
+? A short summary of what the operation does. ? (Short Summary of API Method)
+? A short summary of what the operation does. ? Short Summary of API Method
+? Additional external documentation for this operation. ? http://docs.example.c
+? Unique string used to identify the operation. ? (uniqueId) 333
+? Unique string used to identify the operation. ? 333
+? A list of tags for API documentation control.  ? (api2swagger)
+? A list of tags for API documentation control.  ? api2swagger
+Making an API Call & fetching more details...Please stay tuned..
+Api2swagger needs details related to param : q
+? Description of Query Param ? (Query Param description goes here..) dd
+? Description of Query Param ? dd
+? Is Above Query param required ? (Y/n) y
+? Is Above Query param required ? Yes
+? Date type of query param ? (Use arrow keys)
+? Date type of query param ? string
+? Comma Separated possible values? (quilting) n
+? Comma Separated possible values? n
+? API Path has any dynamic parameters ? (Y/n) n
+? API Path has any dynamic parameters ? No
